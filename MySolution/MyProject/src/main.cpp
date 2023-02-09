@@ -65,6 +65,7 @@ int lineThroughPoints(vector<vector<int>> points) {
 int main()
 {
 	lineThroughPoints(vector<vector<int>>{{2,3},{3,3},{-5,3}});
+	cout << "hello";
     int _;
     cin >> _;
 }
