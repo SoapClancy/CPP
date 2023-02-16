@@ -72,10 +72,13 @@ int lineThroughPoints(vector<vector<int>> points)
 
 int main()
 {
-    int i = 1;
-    i++;
-    lineThroughPoints(vector<vector<int>>{{2, 3}, {3, 3}, {-5, 3}});
-    cout << "hello";
+    vector<int> nums{-1, -1, -1};
+    int j = 0;
+    int a = nums[j];
+    int b = nums.size();
+    int jump = a % b;
+    int jump2 = nums[j] % (int)nums.size();
+    cout << jump;
     int _;
     cin >> _;
 }
